@@ -4,7 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Jaqueline Mendes | Advogada em Alphaville, Barueri</title>
-<meta name="description" content="Jaqueline Mendes, advogada especialista em Direito Civil, Contratual, Administrativo e Constitucional, com atuação forte em demandas de servidores públicos. Alphaville, Barueri-SP.">
+<meta name="description" content="Jaqueline Mendes, advogada com atuação em Direito Civil, Contratual, Administrativo e Constitucional, com experiência em demandas de servidores públicos. Alphaville, Barueri-SP.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Jaqueline Mendes | Advogada em Alphaville, Barueri">
+<meta property="og:description" content="Advocacia cível em Alphaville, Barueri: Direito Civil, Contratual, Administrativo, Constitucional e servidores públicos.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LegalService","name":"Jaqueline Mendes Advocacia","telephone":"+5511954990759","address":{"@type":"PostalAddress","streetAddress":"Al. Rio Negro, 503, 20º andar, sala 2020","addressLocality":"Barueri","addressRegion":"SP","postalCode":"06454-000","addressCountry":"BR"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -98,6 +103,11 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:va
 .map iframe{border:0;width:100%;flex:1;min-height:340px}
 .map a{padding:12px 16px;font-size:14px;font-weight:600;color:var(--gold);border-top:1px solid var(--line);text-align:center}
 
+.faq{margin-top:32px;max-width:760px;display:grid;gap:12px}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 20px}
+.faq summary{cursor:pointer;font-weight:600;font-size:16px}
+.faq summary:focus-visible,.btn:focus-visible,.menu a:focus-visible,.wa:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.faq p{margin:10px 0 0;color:var(--muted);font-size:15px}
 footer{background:var(--navy);color:var(--navy-ink);padding:40px 0;font-size:14px}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;opacity:.9}
 
@@ -115,9 +125,9 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
   <div class="wrap nav">
     <a class="brand" href="#inicio">⚖️ Jaqueline <b>Mendes</b></a>
     <nav class="menu">
-      <a href="#sobre">Sobre</a><a href="#areas">Áreas de atuação</a><a href="#avaliacoes">Avaliações</a><a href="#contato">Contato</a>
+      <a href="#sobre">Sobre</a><a href="#areas">Áreas de atuação</a><a href="#avaliacoes">Avaliações</a><a href="#duvidas">Dúvidas</a><a href="#contato">Contato</a>
     </nav>
-    <a class="btn btn-gold" href="https://wa.me/5511954990759?text=Ol%C3%A1%2C%20Dra.%20Jaqueline!%20Gostaria%20de%20agendar%20uma%20conversa." target="_blank" rel="noopener">Fale conosco</a>
+    <a class="btn btn-gold" href="https://wa.me/5511954990759?text=Ol%C3%A1%2C%20Dra.%20Jaqueline!%20Gostaria%20de%20agendar%20uma%20conversa." target="_blank" rel="noopener">Fale pelo WhatsApp</a>
   </div>
 </header>
 
@@ -143,11 +153,11 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
   <div class="wrap about">
     <div>
       <div class="eyebrow">Sobre</div>
-      <h2>Advocacia com foco em resultado e clareza</h2>
+      <h2>Advocacia com foco em estratégia e clareza</h2>
     </div>
     <div>
-      <p>Jaqueline Mendes é advogada especializada em Direito e Processo Civil, Direito Contratual, Direito Administrativo e Constitucional, com forte atuação em demandas de servidores públicos.</p>
-      <p>Focada em performance e resultados, une técnica, estratégia e inovação na solução de conflitos, com sólida experiência no consultivo e no contencioso cível, em demandas de servidores municipais e em defesas em processos administrativos.</p>
+      <p>Jaqueline Mendes é advogada com atuação em Direito e Processo Civil, Direito Contratual, Direito Administrativo e Constitucional, com experiência em demandas de servidores públicos.</p>
+      <p>Une técnica, estratégia e inovação na solução de conflitos, com experiência no consultivo e no contencioso cível, em demandas de servidores municipais e em defesas em processos administrativos.</p>
       <ul class="points">
         <li>Atuação próxima ao cliente, com explicações claras e acessíveis</li>
         <li>Segurança jurídica e eficiência na condução de processos e negociações</li>
@@ -167,7 +177,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
       <article class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5zM14 3v5h5M9 13h6M9 17h6"/></svg></div><h3>Direito Contratual</h3><p>Análise, elaboração e revisão de contratos, além de negociações com segurança jurídica.</p></article>
       <article class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10m4 11V10m6 11V10m4 11V10M2 10l10-6 10 6"/></svg></div><h3>Direito Administrativo</h3><p>Defesas em processos administrativos e atuação junto à Administração Pública.</p></article>
       <article class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Direito Constitucional</h3><p>Proteção de direitos fundamentais e garantias constitucionais nas demandas do dia a dia.</p></article>
-      <article class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.5-4 3-6 6.5-6s6 2 6.5 6M16 4.5a3.5 3.5 0 0 1 0 7M21.5 20c-.3-2.6-1.6-4.4-3.5-5.3"/></svg></div><h3>Servidores Públicos</h3><p>Forte atuação em demandas de servidores públicos, especialmente servidores municipais.</p></article>
+      <article class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.5-4 3-6 6.5-6s6 2 6.5 6M16 4.5a3.5 3.5 0 0 1 0 7M21.5 20c-.3-2.6-1.6-4.4-3.5-5.3"/></svg></div><h3>Servidores Públicos</h3><p>Atuação em demandas de servidores públicos, especialmente servidores municipais.</p></article>
       <article class="card"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10z"/></svg></div><h3>Consultoria Jurídica</h3><p>Orientação preventiva para decisões seguras, antes que o conflito aconteça.</p></article>
     </div>
   </div>
@@ -176,12 +186,21 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
 <section id="avaliacoes">
   <div class="wrap">
     <div class="eyebrow">Avaliações</div>
-    <h2>Quem foi atendido recomenda</h2>
-    <div class="rating"><b>5,0</b><span class="stars">★★★★★</span><span>81 avaliações no Google</span></div>
-    <div class="grid">
-      <figure class="quote" style="margin:0"><span class="stars">★★★★★</span><p>“Uma advogada incrível! Explica todos os detalhes do processo de forma clara. Me passou confiança do início ao fim e obteve sucesso.”</p><small>Andreza Correa</small></figure>
-      <figure class="quote" style="margin:0"><span class="stars">★★★★★</span><p>“Atendimento marcado pela excelência, profissionalismo e atenção às minhas necessidades. Serviço jurídico ágil, ético e personalizado.”</p><small>Adriana de Lourdes Menezes Teixeira de Godoy</small></figure>
-      <figure class="quote" style="margin:0"><span class="stars">★★★★★</span><p>“Profissional muito competente e atenciosa. A equipe da Dra. Jaqueline também é nota 10. Super recomendo.”</p><small>Adriano Marcal</small></figure>
+    <h2>Avaliações no Google</h2>
+    <div class="rating"><b>5,0</b><span class="stars" aria-hidden="true">★★★★★</span><span>81 avaliações no Google</span></div>
+    <p class="lead">Os comentários completos ficam no perfil do escritório no Google, escritos pelos próprios clientes.</p>
+    <p style="margin:22px 0 0"><a class="btn btn-gold" href="https://www.google.com/maps/search/?api=1&amp;query=Jaqueline+Mendes+Advogada+Alphaville+Barueri" target="_blank" rel="noopener">Ver avaliações no Google</a></p>
+  </div>
+</section>
+
+<section id="duvidas">
+  <div class="wrap">
+    <div class="eyebrow">Dúvidas</div>
+    <h2>Antes de entrar em contato</h2>
+    <div class="faq">
+      <details><summary>Como funciona a primeira conversa?</summary><p>Você descreve o seu caso pelo WhatsApp e a equipe combina o melhor horário para uma conversa, para entender a situação e orientar os próximos passos.</p></details>
+      <details><summary>Quais tipos de caso o escritório atende?</summary><p>Demandas cíveis, contratos, processos administrativos, questões constitucionais e demandas de servidores públicos, especialmente municipais.</p></details>
+      <details><summary>Onde fica o escritório e qual o horário?</summary><p>No Centro Industrial e Empresarial, Al. Rio Negro, 503, 20º andar, sala 2020, em Alphaville. Atendimento de segunda a sexta, das 8h às 18h.</p></details>
     </div>
   </div>
 </section>
@@ -210,7 +229,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
 
 <footer>
   <div class="wrap">
-    <span>© 2026 Jaqueline Mendes · Advogada</span>
+    <span>© 2026 Jaqueline Mendes · Advogada · OAB/SP nº 000.000</span>
     <span>Alphaville, Barueri - SP</span>
   </div>
 </footer>
